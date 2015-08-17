@@ -472,6 +472,11 @@ outline:0;
 /** Magnet Framework Code
 **/
 
+body{
+	font-family: 'Trebuchet MS', serif;
+	line-height: 1.6
+}
+
 /** Buttons **/
 /*input[type="button"],*/
 button,
@@ -891,10 +896,6 @@ input[type=checkbox]:checked ~ #menu{
 /*Tables by Magnet Over*/
 
 /** Tabs **/
-body{
-			font-family: 'Trebuchet MS', serif;
-			line-height: 1.6
-		}
 		.container{
 			width: 800px;
 			margin: 0 auto;
