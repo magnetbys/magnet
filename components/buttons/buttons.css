@@ -1,0 +1,100 @@
+/*input[type="button"],*/
+button,
+.btn,
+.magnet-button,
+#magnet-button {
+  background: #EEEEEE;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #757575;
+  text-decoration: none;
+  font-size: 80%;
+  padding: 5px 10px 5px 10px;
+  border: none;
+} 
+
+.btn-large,
+.btn-large:hover,
+.btn-large:active {
+	font-size: 180%;
+}
+.btn-medium,
+.btn-medium:hover,
+.btn-medium:active {
+	font-size: 130%;
+}
+
+/*input[type="button"]:hover, */
+button:hover,
+.btn:hover,
+.magnet-button:hover,
+#magnet-button:hover {
+  background: #E0E0E0;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #757575;
+  text-decoration: none;
+  padding: 5px 10px 5px 10px;
+  border: none;  
+}
+button:active,
+.btn:active,
+.magnet-button:active,
+#magnet-button:active {
+	box-shadow: 0 0 0 1px rgba(0,0,0,.15) inset,0 0 6px rgba(0,0,0,.2) inset;
+}
+
+button:disabled,
+.btn:disabled,
+.magnet-button:disabled,
+#magnet-button:disabled,
+.disabled {
+   background-color: #eeeeee;
+   color: #bdbdbd;
+   pointer-events: none;
+   cursor: default;
+}
+
+.active {
+	box-shadow: 0 0 0 1px rgba(0,0,0,.15) inset,0 0 6px rgba(0,0,0,.2) inset;
+}
+
+#btn-green,
+.btn-green {
+	background: #A5D6A7;
+}
+#btn-green:hover,
+.btn-green:hover {
+	background: #81C784;
+}
+
+#btn-blue,
+.btn-blue {
+	background: #90CAF9;
+}
+#btn-blue:hover,
+.btn-blue:hover {
+	background: #64B5F6;
+}
+
+#btn-black,
+.btn-black {
+	background: #424242;
+	color: #fafafa;
+}
+#btn-black:hover,
+.btn-black:hover {
+	background: #212121;
+	color: #fafafa;
+}
+
+#btn-red,
+.btn-red {
+	background: #ef9a9a;
+	color: #fafafa;
+}
+#btn-red:hover,
+.btn-red:hover {
+	background: #e57373;
+	color: #fafafa;
+}

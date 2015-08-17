@@ -1,0 +1,51 @@
+
+.magnet-table tr, th, td {
+	color: #111111;
+	overflow: visible;
+	border: 1px solid #BDBDBD;
+	max-width: 90%;
+	width: inherit;
+}
+
+.magnet-table th {
+	background-color: #BDBDBD;
+}
+
+.magnet-table td {
+	background-color: transparent;
+
+}
+.magnet-table th, td {
+	padding: 9px;
+	word-wrap: break-word; 
+}
+/* Under construction 
+.only-horizontal td {
+	border-bottom: none;
+	border-top: none;
+}
+.only-vertical td {
+	border-right: none;
+}
+
+
+.table-red th {
+	background-color: #ef9a9a;
+}
+.table-red tr, th, td {
+	border: 1px solid #ef9a9a;
+}
+
+.table-green th{
+	background-color: #A5D6A7;
+}
+.table-green tr, th, td {
+	border: 1px solid #A5D6A7;
+}
+
+.table-blue th {
+	background-color: #90CAF9;
+}
+.table-blue tr, th, td {
+border: 1px solid #90CAF9; 
+{ */

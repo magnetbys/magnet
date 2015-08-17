@@ -1,0 +1,35 @@
+.magnet-form-text {
+  padding-left: 0.5%;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 3px #ddd;
+}
+
+.magnet-textarea {
+  padding-left: 0.5%;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 3px #ddd;
+}
+
+.no-borders {
+  border: none;
+  box-shadow: none;
+  border-style: none;
+  background-color: #FAFAFA;
+  resize:none;
+}
+
+select {
+  border-radius: 5px;
+}
+
+.magnet-textarea:disabled,
+.magnet-form-text:disabled,
+textarea:disabled {
+  border-style: none;
+  background-color: #E0E0E0;
+  cursor: not-allowed;
+}
+
+.no-scroll {
+  resize:none;
+}
