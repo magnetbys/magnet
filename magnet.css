@@ -13,7 +13,8 @@ Magnet is licensed under GNU GPL 2.0 and is completely free and open source to u
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
 html {
-  font-family: sans-serif; /* 1 */
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+ /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -236,7 +237,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 1em;
 }
 
@@ -472,6 +473,11 @@ outline:0;
 /** Magnet Framework Code
 **/
 
+body{
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 1.6
+}
+
 /** Buttons **/
 /*input[type="button"],*/
 button,
@@ -480,7 +486,11 @@ button,
 #magnet-button {
   background: #EEEEEE;
   border-radius: 5px;
+<<<<<<< HEAD
   font-family: Verdana, Geneva, sans-serif;
+=======
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+>>>>>>> origin/master
   color: #757575;
   text-decoration: none;
   font-size: 80%;
@@ -506,7 +516,11 @@ button:hover,
 #magnet-button:hover {
   background: #E0E0E0;
   border-radius: 5px;
+<<<<<<< HEAD
   font-family: Verdana, Geneva, sans-serif;
+=======
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+>>>>>>> origin/master
   color: #757575;
   text-decoration: none;
   padding: 5px 10px 5px 10px;
@@ -718,7 +732,11 @@ textarea:disabled {
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
+<<<<<<< HEAD
 	font-family: Verdana, Geneva, sans-serif;
+=======
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+>>>>>>> origin/master
 	color: initial;
 	background: transparent;
 	text-decoration: none;
@@ -768,7 +786,11 @@ ul li a:hover + .hidden, .hidden:hover {
 
 /*Style 'show menu' label button and hide it by default*/
 .show-menu {
+<<<<<<< HEAD
 	font-family: Verdana, Geneva, sans-serif;
+=======
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+>>>>>>> origin/master
 	text-decoration: none;
 	color: initial;
 	background: transparent;
@@ -891,10 +913,13 @@ input[type=checkbox]:checked ~ #menu{
 /*Tables by Magnet Over*/
 
 /** Tabs **/
+<<<<<<< HEAD
 body{
 			font-family: Verdana, Geneva, sans-serif;
 			line-height: 1.6
 		}
+=======
+>>>>>>> origin/master
 		.container{
 			width: 800px;
 			margin: 0 auto;
